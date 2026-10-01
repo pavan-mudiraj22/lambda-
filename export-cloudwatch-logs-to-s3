@@ -8,7 +8,7 @@ logs_client = boto3.client('logs')
 s3_client = boto3.client('s3')
 
 # Constants
-S3_BUCKET_NAME = 'project-amz-cost'
+S3_BUCKET_NAME = 'amz-pav-cost'
 LOG_GROUP = 'ec2-all-logs'
 TIME_WINDOW_HOURS = 24  # Change to 12, 48, etc. if needed
 
